@@ -1,0 +1,12 @@
+{
+  "name": "bot-whatsapp-venom",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "tsc -p ./tsconfig.json & node ./dist/index.js"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "venom-bot": "^4.0.4"
+  }
+}
